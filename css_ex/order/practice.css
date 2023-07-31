@@ -1,0 +1,16 @@
+p{
+    color: blue;
+}
+
+
+#text-color{
+    color: red;
+}
+
+.list-color{
+    color: green;
+}
+
+h2,#color1,.color2{
+    color: purple;
+}

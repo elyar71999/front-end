@@ -1,0 +1,24 @@
+h1{
+    color: red;
+    /*背景色付ける*/
+    background-color: yellow;
+    text-align: center;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+   font-family: 'Borel', cursive;
+   font-size: 16px;
+   width: 600px;
+   height: 100;
+}
+
+p{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+a{
+    background-color: darkorchid;
+    text-align: center;
+}
+#a{
+    display: block;
+}

@@ -1,0 +1,22 @@
+header{
+    background-color: #ffe4c4;
+}
+ul{
+    display: flex;
+    gap: 0 10px;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}
+section{
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+}
