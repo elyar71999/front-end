@@ -1,0 +1,17 @@
+body{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#login{
+    width: 250px;
+    color: antiquewhite;
+    background-color: green
+    
+    
+}
