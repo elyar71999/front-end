@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/css/blog_edit.css}">
+</head>
+<body>
+    <div>
+        <form action="@{/user/blog/update}" method="post">
+             <label for="title">タイトル</label>
+                <input type="text" id="title" name="blogTitle">
+                <label for="image">画像</label>
+                <input type="file" id="image" name="blogImage">
+                <label for="article">記事</label>
+                <textarea name="blogDetail" id="article" cols="65" rows="20">
+				<label for="category">カテゴリ</label>
+                <input type="text" id="title" name="category">
+                <label for="register-date">日付</label>
+                <input type="date" id="re-date" name="registerDate">
+            <span>
+                <input type="submit" id="submit" value="変更">
+                <input type="submit" id="submit2" value="削除">
+                <input type="submit" id="submit3" value="戻る">
+            </span>
+        </form>
+    </div>
+</body>
+</html>
